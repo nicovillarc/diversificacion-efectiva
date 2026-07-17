@@ -1,0 +1,14 @@
+{
+  "sigma_p_daily": 0.011334000299250765,
+  "sigma_p_annual": 0.17992167690809505,
+  "sum_rc": 0.011334000299250767,
+  "sum_prc": 1.0,
+  "identity_ok": true,
+  "n_observations": 2636,
+  "sample_start": "2016-01-01",
+  "sample_end": "2026-06-30",
+  "equity_capital": 0.6,
+  "fixed_income_capital": 0.4,
+  "equity_risk_share": 0.9765231559604329,
+  "fixed_income_risk_share": 0.023476844039567114
+}

@@ -1,0 +1,15 @@
+{
+  "symmetric_max_err": 0.0,
+  "diag_max_err_from_1": 0.0,
+  "min_eigenvalue": 0.04038721774039369,
+  "sum_eigenvalues": 9.999999999999998,
+  "trace_R": 10.0,
+  "max_evr_manual_vs_module": 0.0,
+  "max_VtV_minus_I": 9.992007221626409e-16,
+  "max_recon_err": 1.1102230246251565e-15,
+  "max_lambda_numpy_vs_sklearn": 9.769962616701378e-15,
+  "max_evr_numpy_vs_sklearn": 7.216449660063518e-16,
+  "max_V_numpy_vs_sklearn_sign_aligned": 2.6603719227580314e-14,
+  "fig10_shows": "eigenvectors_of_correlation_matrix",
+  "verdict": "VALIDATED"
+}

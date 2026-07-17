@@ -1,0 +1,16 @@
+{
+  "aligned_w_returns_cov": true,
+  "missing_returns_per_ticker": 0,
+  "n_observations": 2636,
+  "pairwise_nobs_all_equal_2636": true,
+  "complete_case_identical_to_original": true,
+  "max_abs_prc_diff": 0.0,
+  "equity_fi_prc": [
+    0.97652316,
+    0.02347684
+  ],
+  "identities_ok": true,
+  "adjusted_prices_ok": true,
+  "fi_distributions_material_in_adj": true,
+  "verdict": "VALIDATED"
+}

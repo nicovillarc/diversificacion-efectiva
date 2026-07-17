@@ -1,0 +1,37 @@
+# Sistema / IDE
+.DS_Store
+.mplconfig/
+.idea/
+.vscode/
+*.swp
+
+# Binarios y caches locales
+.tools/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Previews y builds temporales
+paper/_preview/
+paper/_build*/
+paper/_ref*/
+paper/_debug_table.tex
+paper/_test_tab.tex
+paper/_test_tab.pdf
+report/_preview/
+report/*.aux
+report/*.log
+report/*.out
+**/_header_check.png
+
+# Referencia ajena (no parte del entregable)
+1783471423840.pdf
+
+# Copia duplicada del paper (usar la versión con nombre de autor)
+Más allá del número de activos.pdf
+
+# Entornos
+.venv/
+venv/
+env/
