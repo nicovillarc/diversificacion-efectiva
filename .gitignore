@@ -28,8 +28,9 @@ report/*.out
 # Referencia ajena (no parte del entregable)
 1783471423840.pdf
 
-# Copia duplicada del paper (usar la versión con nombre de autor)
+# Copia duplicada del paper (no versionar)
 Más allá del número de activos.pdf
+Más allá del número de activos — Nicolás Villar.pdf
 
 # Entornos
 .venv/

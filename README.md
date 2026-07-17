@@ -10,7 +10,6 @@ Diagnóstico cuantitativo de diversificación efectiva sobre una cartera 60/40.
 
 | Documento | Archivo |
 |-----------|---------|
-| Paper académico (autor: Nicolás Villar) | [`Más allá del número de activos — Nicolás Villar.pdf`](./Más%20allá%20del%20número%20de%20activos%20—%20Nicolás%20Villar.pdf) |
 | Paper académico (autor: Villar Capital) | [`Más allá del número de activos — Villar Capital.pdf`](./Más%20allá%20del%20número%20de%20activos%20—%20Villar%20Capital.pdf) |
 | Informe institucional (Portfolio Diagnostics #001) | [`Portfolio Research Report — Diversificación efectiva.pdf`](./Portfolio%20Research%20Report%20—%20Diversificación%20efectiva.pdf) |
 | Carrusel Instagram | [`instagram/carousel/`](./instagram/carousel/) |
@@ -86,7 +85,6 @@ Requiere un motor TeX (p. ej. [Tectonic](https://tectonic-typesetting.github.io/
 
 ```bash
 cd paper
-tectonic -X compile diversificacion_efectiva_es.tex
 tectonic -X compile diversificacion_efectiva_es_villar_capital.tex
 
 cd ../report
@@ -103,5 +101,5 @@ El estudio es **exclusivamente diagnóstico**: no optimiza la cartera ni prescri
 
 ## Autor
 
-**Nicolás Villar** · Villar Capital  
+**Villar Capital**  
 Julio 2026
