@@ -6,13 +6,11 @@ Diagnóstico cuantitativo de diversificación efectiva sobre una cartera 60/40.
 
 ---
 
-## Entregables
+## Entregable
 
 | Documento | Archivo |
 |-----------|---------|
 | Paper académico (autor: Villar Capital) | [`Más allá del número de activos — Villar Capital.pdf`](./Más%20allá%20del%20número%20de%20activos%20—%20Villar%20Capital.pdf) |
-| Informe institucional (Portfolio Diagnostics #001) | [`Portfolio Research Report — Diversificación efectiva.pdf`](./Portfolio%20Research%20Report%20—%20Diversificación%20efectiva.pdf) |
-| Carrusel Instagram | [`instagram/carousel/`](./instagram/carousel/) |
 
 ---
 
@@ -45,13 +43,11 @@ Diagnóstico cuantitativo de diversificación efectiva sobre una cartera 60/40.
 ## Estructura del repositorio
 
 ```
-src/           Código (descarga, métricas, figuras, carrusel)
+src/           Código (descarga, métricas, figuras)
 data/raw/      Precios ajustados
 data/processed/ Matrices, PRC, PCA, auditorías
-figures/       Figuras del paper e informe (ES/EN)
+figures/       Figuras del paper (ES/EN)
 paper/         Paper académico (Markdown + LaTeX + PDF)
-report/        Informe institucional (LaTeX + PDF)
-instagram/     Carrusel 1080×1080
 ```
 
 ---
@@ -74,21 +70,15 @@ python3 src/metrics_effective_positions.py
 python3 src/metrics_pca.py
 python3 src/fig01_portfolio_allocation.py
 # … resto de fig0x_*.py
-
-# Carrusel Instagram
-python3 src/instagram_carousel.py
 ```
 
-### Compilar PDFs (LaTeX)
+### Compilar el PDF (LaTeX)
 
 Requiere un motor TeX (p. ej. [Tectonic](https://tectonic-typesetting.github.io/)):
 
 ```bash
 cd paper
 tectonic -X compile diversificacion_efectiva_es_villar_capital.tex
-
-cd ../report
-tectonic -X compile portfolio_research_report_es.tex
 ```
 
 ---

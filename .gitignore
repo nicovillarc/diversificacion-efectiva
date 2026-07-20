@@ -19,18 +19,15 @@ paper/_ref*/
 paper/_debug_table.tex
 paper/_test_tab.tex
 paper/_test_tab.pdf
-report/_preview/
-report/*.aux
-report/*.log
-report/*.out
 **/_header_check.png
 
-# Referencia ajena (no parte del entregable)
+# Fuera del entregable público
+report/
+instagram/
 1783471423840.pdf
-
-# Copia duplicada del paper (no versionar)
 Más allá del número de activos.pdf
 Más allá del número de activos — Nicolás Villar.pdf
+Portfolio Research Report — Diversificación efectiva.pdf
 
 # Entornos
 .venv/
