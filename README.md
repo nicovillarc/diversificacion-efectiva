@@ -4,13 +4,7 @@ Diagnóstico cuantitativo de diversificación efectiva sobre una cartera 60/40.
 
 **Idea central:** la diversificación no se mide contando activos; se mide evaluando cuántas fuentes de riesgo independientes tiene realmente un portafolio.
 
----
-
-## Entregable
-
-| Documento | Archivo |
-|-----------|---------|
-| Paper académico (autor: Villar Capital) | [`Más allá del número de activos — Villar Capital.pdf`](./Más%20allá%20del%20número%20de%20activos%20—%20Villar%20Capital.pdf) |
+📄 **Leer el paper completo:** [`paper/effective_diversification.pdf`](./paper/effective_diversification.pdf)
 
 ---
 
@@ -78,7 +72,7 @@ Requiere un motor TeX (p. ej. [Tectonic](https://tectonic-typesetting.github.io/
 
 ```bash
 cd paper
-tectonic -X compile diversificacion_efectiva_es_villar_capital.tex
+tectonic -X compile effective_diversification.tex
 ```
 
 ---
