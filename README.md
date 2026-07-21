@@ -1,5 +1,9 @@
 # Más allá del número de activos
 
+📄 Research Paper &nbsp;·&nbsp; 🐍 Python &nbsp;·&nbsp; 📊 Portfolio Optimization &nbsp;·&nbsp; 📈 Risk Management
+
+---
+
 Diagnóstico cuantitativo de diversificación efectiva sobre una cartera 60/40.
 
 **Idea central:** la diversificación no se mide contando activos; se mide evaluando cuántas fuentes de riesgo independientes tiene realmente un portafolio.
@@ -87,3 +91,9 @@ El estudio es **exclusivamente diagnóstico**: no optimiza la cartera ni prescri
 
 **Villar Capital**  
 Julio 2026
+
+---
+
+## Licencia
+
+Distribuido bajo licencia [MIT](./LICENSE).
